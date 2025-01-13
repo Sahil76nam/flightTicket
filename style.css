@@ -99,7 +99,7 @@
     text-decoration: none;
     
     padding: 10px 20px;
-    border: 1px solid #FFA500;
+    border: 1px solid #614051 ;
     border-radius: 50px;
     overflow: hidden;
     
@@ -115,7 +115,7 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  background:#FFAE42;
+  background:black;
   left: 0%;
   bottom:-100%;
   border-radius: 50%;
@@ -157,10 +157,11 @@
  #content h1{
     width: 35%;
     /* padding-bottom: 15px; */
-    padding-top: 30PX;
+    padding-top: 50PX;
     text-align: left;
     font-size: 3rem;
     color: #3B2F2F;
+    
     
     
  }
@@ -170,10 +171,11 @@
  }
  #content p{
      width: 30%;
-     padding-top: 10px;
+     padding-top: 50px;
      text-align: justify;
      padding-bottom: 20px;
-     color: #572005;
+     color: #fff;
+     font-weight: 400;
  }
  .btn2{
     
@@ -363,8 +365,8 @@
    top: 0%;
   }
   #fixid-image{
-   height: 55vh;
-   width: 18vw;
+   height: 60vh;
+   width: 30vw;
    
    position: fixed;
    border-radius: 20px;
@@ -372,7 +374,7 @@
    left: 50%;
    top: 18%;
    display: none;
-   background-size: contain;
+   background-size: cover;
    background-position: center;
 
   }
@@ -862,7 +864,7 @@
 
 @media (max-width: 450px){
   .fullnav{
-    width: 450px;
+    width: 100%;
     height: 80vh;
     display: block;
     background-color:#033E3E;
@@ -884,7 +886,7 @@
     right: 20px;
   }
   .fullnav h4{
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
     
   }
@@ -897,8 +899,13 @@
     background-color: #E18AFC;
     
     position: relative;
+    padding: 15px;
     left: 40%;
     top: 40px;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    
 
   }
   #nav .nav1{
@@ -1061,6 +1068,13 @@
   
   .footer2 .footnav h1{
    font-size: 1rem; 
+  }
+  .login1{
+    
+    position: relative;
+    top: 15%;
+    left: 14%;
+
   }
     
 

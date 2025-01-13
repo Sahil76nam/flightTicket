@@ -133,7 +133,7 @@ gsap.from("#loader h1",{
  let ticketbook=()=>{
   
   if(localStorage.getItem("isLogin")==true){
-    location.href="flightticket.html"
+    // location.href="sign.html"
   }
   else{
     alert("Login first")
@@ -276,7 +276,7 @@ menu.addEventListener("click",function(){
   full.style.top=0;
 })
 cutt.addEventListener("click",function(){
-  full.style.backgroundColor=-100;
+  full.style.top="-100%";
   console.log("sahil")
 })
 

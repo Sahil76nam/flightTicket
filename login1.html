@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div id="login">
         <div id="log"><img src="flitelogo.png" ></div>
-        <div class="login1">
+        <div class="login1" data-aos="flip-left" data-aos-duration="1000">
             <h1>Login</h1>
             <form>
                 
@@ -19,8 +20,8 @@
                 <input type="submit" value="login" onclick="return login()"> -->
                 <form >
        
-                     <input type="text" id="loginname" placeholder="enter your plz"> <br><br>
-                     <input type="password" id="loginpass" placeholder="enter your password"> <br><br>
+                     <input type="text" id="loginname" placeholder="enter your plz" data-aos="flip-down" data-aos-duration="2000" > <br><br>
+                     <input type="password" id="loginpass" placeholder="enter your password" data-aos="flip-up" data-aos-duration="2000"> <br><br>
                
                     <input type="submit" value="Login" class="btn" onclick="return login()">
                
@@ -33,6 +34,10 @@
             <button>Google</button>
             <button>Facebook</button>
            </div>
+           <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+           <script>
+            AOS.init();
+          </script>
            <script src="local.js"></script>
 
 </body>
