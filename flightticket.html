@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home" id="ticketnav">
+        <div class="logo">
+            <img src="flitelogo.png">
+        </div>
+        <div id="nav">
+            <div class="nav1"><h4><a href="index.html">HOME</a></h4></div>
+            <div class="nav1" onclick="ticketbook()"><h4><a href="flightticket.html">TICKETS</a></h4></div>
+            <div class="nav1"><h4><a href="">TOUR</a></h4></div>
+            <div class="nav1"><h4><a href="">AIRPORTS</a></h4></div>
+            <div class="nav1"><h4><a href="ticket.html">HISTORY</a></h4></div>
+            <div class="nav1" onclick="logout()"><h4><a href="sign.html">LOGOUT</a></h4></div>
+
+
+
+        </div>
+    </div>
+    
+    <div id="ticket-detail">
+        <h1>TICKET BOOK</h1>
+        <div class="trip">
+            
+            <h2>ONE TRIP</h2>
+            <h2>MULTI TRIP</h2>
+        </div>
+        <form >
+             <input type="text"  id="tname" placeholder="PLEASE ENTER TRAVELLER NAME"><br><br>
+             <input type="text" list="origen" id="torigen" placeholder="PLEASE ENTER ORIGEN PLACE"><br><br>
+            
+             <input type="text"  id="tdistination" placeholder="PLEASE ENTER DISTINATION PLACE"><br><br>
+           <div class="cate">
+           <h5> PLEASE ENTER NO. TRAVELLER</h5> <select  id="tno">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select><br></div> <br>
+            <div class="cate"> <h5>PLEASE ENTER CATEGERY</h5> <select  id="tcategery">
+                <option value="economy-class">Economy-class</option>
+                <option value="business-class">business-class</option>
+            </select><br><br></div><br>
+            
+          <input type="submit" onclick="return ins()" value="Book" id="catebook">
+        </form>
+    </div>
+ <script src="ticket.js"></script>
+</body>
+</html>

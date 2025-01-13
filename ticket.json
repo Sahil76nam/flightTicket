@@ -1,0 +1,36 @@
+{
+  "tickets": [
+    {
+      "Travellername": "rabbbb",
+      "Origen": "bhkkkk",
+      "Distiantion": "bhffff",
+      "Ticketnumber": "3",
+      "Categrey": "business-class",
+      "id": "eb71"
+    },
+    {
+      "id": "30ce",
+      "Travellername": "rab",
+      "Origen": "bhk",
+      "Distiantion": "hghh",
+      "Ticketnumber": "2",
+      "Categrey": "business-class"
+    },
+    {
+      "id": "b072",
+      "Travellername": "rohit",
+      "Origen": "gadarwara",
+      "Distiantion": "bhopal",
+      "Ticketnumber": "2",
+      "Categrey": "economy-class"
+    },
+    {
+      "id": "6796",
+      "Travellername": "rohi",
+      "Origen": "gadarwara",
+      "Distiantion": "bhopal",
+      "Ticketnumber": "3",
+      "Categrey": "economy-class"
+    }
+  ]
+}

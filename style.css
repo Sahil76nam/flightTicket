@@ -1,0 +1,1073 @@
+@font-face {
+    font-family: font;
+    src: url(./NeueMachina-Light.otf);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+ html,body{
+    height: 100%;
+    width: 100%;
+    font-family: font;
+    overflow-x: hidden;
+    
+ }
+ main{
+  background-image: url(thumb-1920-868300.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  
+ }
+ .vdeo video{
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    right: 0;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+     /* display: none;  */
+    
+ }
+ 
+ 
+ .home{
+     margin-top: 10px; 
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+     
+    
+ } .logo img{
+    position: relative;
+    height: 60px;
+    width: 120px;
+    
+    left: 50%;
+    
+
+    
+
+
+
+ }
+ #nav{
+    display: flex;
+    justify-self:center;
+     align-items: center; 
+    gap: 10px;
+    
+ }
+ .nav1{
+    position: relative;
+    right: 15%;
+    
+    
+ }
+ .btn1{
+    position: relative;
+    right: 5%;
+   
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+ }
+ .btn1 a{
+   
+    position: relative;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+
+    
+ }
+ 
+ #nav .nav1 h4{
+    position: relative;
+    
+    text-decoration: none;
+    
+    padding: 10px 20px;
+    border: 1px solid #FFA500;
+    border-radius: 50px;
+    overflow: hidden;
+    
+   
+    
+    
+    
+
+    
+ }
+ .nav1 h4::after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background:#FFAE42;
+  left: 0%;
+  bottom:-100%;
+  border-radius: 50%;
+  
+ }
+ .nav1 h4 a{
+  color: #000;
+  text-decoration: none;
+  z-index: 9;
+  position: relative;
+ }
+ .nav1 h4:hover::after{
+  bottom: 0%;
+  transition: all ease 1s;
+ 
+  border-radius: 0%;
+  
+ }
+ .nav1 h4:hover a{
+  color: #fff;
+  transition: all ease 1s;
+ }
+ 
+    
+    
+    
+ 
+ #content{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    left: 6%;
+    /* margin-top: 110px; */
+    
+ }
+ #content h1{
+    width: 35%;
+    /* padding-bottom: 15px; */
+    padding-top: 30PX;
+    text-align: left;
+    font-size: 3rem;
+    color: #3B2F2F;
+    
+    
+ }
+ #content h2{
+    font-size: 2rem;
+    color: #43302E;
+ }
+ #content p{
+     width: 30%;
+     padding-top: 10px;
+     text-align: justify;
+     padding-bottom: 20px;
+     color: #572005;
+ }
+ .btn2{
+    
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: #fff;
+    width: 12vw;
+    background: #F70D1A;
+    margin-top: 5px;
+   
+ }.btn2:hover{
+  background: #8C001A;
+ }
+ .content2{
+  position: relative;
+  right: 15vw;
+  top: 5vh;
+  width: 30vw;
+ }
+ .content2 h2{
+  color: #033E3E;
+  background-color: #3D0C02;
+  margin-bottom: 10px;
+ }
+ .content2 input{
+  padding: 6px;
+  background-color: #2B1B17;
+  color: #fff;
+ }
+ .bttn button{
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #810541;
+ }
+ .bttn a{
+  text-decoration: none;
+  color: black;
+
+ }
+ #page2{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    background-color: #DC143C;
+    top: 12%;
+     overflow-x: hidden; 
+ }
+ .move{
+    display: flex;
+    gap: 20px;
+ }
+ .move h1{
+    font-size: 3rem;
+ }
+ #gola{
+    width: 50px;
+    height: 50px;
+    background-color: #EE82EE;
+    margin-top: 10px;
+    border-radius: 50%;
+ }
+ #page3{
+   height: 550px;
+   width: 100%;
+   background-image: url(cloud-vector.png);
+   /* background-color: #C8E4E7; */
+   background-color: #EE82EE;
+   
+  position: relative;
+   top: 78px; 
+   /* left: 4vw; */
+   display: flex;
+   flex-wrap: nowrap;
+   
+ }
+ #page3 .cont1{
+   width: 24vw;
+   
+ }
+ .cont1 .logoo{
+   padding-bottom:20px ;
+   position: relative;
+   left: 8vw;
+   top: 6vh;
+   
+ }
+ .cont1 h1{
+   font-size: 3rem;
+   padding-top: 50px;
+   text-align: center;
+   
+   
+   height: 40vh;
+   
+ }
+ .cont1 .btn2{
+   margin-left: 6vw;
+ }
+ .cont2{
+   display: flex;
+   gap: 30px;
+   position: relative;
+   left: 4vw;
+   
+
+   
+ }
+ .cont2 .paris{
+    position: relative;
+   top: 85px; 
+   
+   width: 230px;
+   height: 60vh;
+   border: 6px solid #D291BC;
+   border-radius: 30px;
+ }
+ .paris img{
+   object-fit: cover;
+   border-radius: 26px;
+
+   
+ }
+ .cont2 .dubai{
+   width: 320px;
+   height: 80vh;
+   position: relative;
+   top: 3vh;
+   border: 6px solid #915F6D;
+   border-radius: 30px;
+ }
+ .dubai img{
+   object-fit: cover;
+   border-radius: 26px;
+
+   
+ }
+ .cont2 .itlay{
+   position: relative;
+   top: 85px;
+   width: 230px;
+   height: 60vh;
+   border: 6px solid #614051;
+   border-radius: 30px;
+ }
+ .itlay img{
+   object-fit: cover;
+   border-radius: 26px;
+
+   
+ }
+ .elem{
+   width: 100vw;
+   height: 100px;
+   border-top: 1px solid black;
+    
+     display: flex; 
+   position: relative; 
+   align-items: center;
+    overflow: hidden; 
+   
+   padding: 0 2vw;
+    top: 12vh; 
+
+ }
+ .elem h2{
+   font-size: 1.5rem;
+   position: relative;
+   z-index: 9;
+ }
+  .elem .divlay{
+   height: 100%;
+   width: 100%;
+   background-color: #033E3E;
+   position: absolute;
+   left: 0%;
+   top: -100%;
+   
+   transition: all ease 0.3s;
+
+  }
+  .elem:hover .divlay{
+   top: 0%;
+  }
+  #fixid-image{
+   height: 55vh;
+   width: 18vw;
+   
+   position: fixed;
+   border-radius: 20px;
+   z-index: 999;
+   left: 50%;
+   top: 18%;
+   display: none;
+   background-size: contain;
+   background-position: center;
+
+  }
+  #page5{
+    position: relative;
+    top: 15vh;
+    height: 100%;
+    width: 100%;
+
+  }
+  .swiper {
+    width: 100%;
+    height: 300px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #5d5781;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 760px) {
+    .swiper-button-next {
+      right: 10px;
+      transform: rotate(90deg);
+    }
+
+    .swiper-button-prev {
+      left: 10px;
+      transform: rotate(90deg);
+    }
+  } 
+
+  #loader{
+    width: 100%;
+    height: 100%;
+    background-color: #9E7BFF;
+    position: fixed;
+    z-index: 9999;
+    top: 0%;
+    transition: all ease 1s;
+    
+  }
+  #loader h1{
+    font-size: 4rem;
+    color: transparent;
+    background:linear-gradient(#FA2A55, black);
+    -webkit-background-clip: text;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 45%;
+  }
+  #page6{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    /* margin-top: -35%; */
+    margin-top: -12%; 
+  }
+  .p6cont1{
+    width: 60vw;
+    height: 17vh;
+    position:relative ;
+    left: 21%;
+    text-align: center;
+    /* bottom: 15vh; */
+    color: #fff;
+    margin-bottom: 30px;
+    
+    
+
+    
+    
+  }
+  .p6cont1:hover{
+    color: transparent;
+    background:linear-gradient(rgb(12, 12, 12), pink);
+    -webkit-background-clip: text;
+  }
+  /* .p6cont1 h1{
+   line-height: 26px;
+  } */
+  .p6cont2{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: 10vw;
+    gap: 10px;
+    flex-wrap: nowrap;
+  }
+  .p6cont2 .p6img{
+    width: 30vw;
+    height: 60%;
+    
+    background-image: url(plane-flying-over-mountain-peaks-600nw-2436593833.webp);
+    object-fit: cover;
+    background-position: center;
+    border-radius: 20px;
+
+  }
+  .p6img:hover{
+    width: 32vw;
+    height: 61%;
+  }
+  .p6cont2 .p6cont3{
+    width: 50vw;
+    height: 60%;
+    
+
+    
+  }
+  .p6cont3 .box1{
+    height: 18.5vh;
+    width: 100%;
+    background: linear-gradient(black,rgb(10, 12, 138));
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    color: #fff;
+  }
+  .box1:hover #c6{
+      color: aqua;
+  }
+  .box2:hover #c6{
+    color: rgb(255, 0, 191);
+}
+.box3:hover #c6{
+  color: rgb(32, 207, 99);
+}
+  #c6{
+    margin-left: 25px;
+  }
+  #c6 p{
+    font-weight: 100;
+  }
+   .box1 h3{
+    padding-bottom: 10px;
+    color: #fff;
+    
+  } 
+  .box2 h3{
+    padding-bottom: 10px;
+    color: #fff;
+    
+  } 
+  .box3 h3{
+    padding-bottom: 10px;
+    
+    
+  } 
+  .box2{
+    height: 18.5vh;
+    width: 100%;
+    background: linear-gradient(black,orange);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    color: #fff;
+  }
+  .box3{
+    height: 18.5vh;
+    width: 100%;
+    background: linear-gradient(black,rgb(30, 180, 42));
+    border-radius: 20px;
+    border: 1px solid black;
+    color: #fff;
+    
+  }
+  #page7{
+    width: 100%;
+    height: 85%;
+    background: black;
+    display: flex;
+    align-self:center;
+    justify-content: center;
+    border-radius: 50px;
+    flex-wrap: nowrap;
+   
+  }
+  #page7 .page7img{
+      width: 45%;
+      height:75vh ;
+      background: #121211;
+      background-image: url(main-object.png);
+      
+      object-fit: cover;
+      background-position: center;
+      background-size: cover;
+      margin-top: 30px;
+      
+  }
+  #page7 .page7cont{
+    width: 50%;
+    height:75vh ;
+    background:#121211 ;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .page7cont h1{
+    font-size: 5rem;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  .page7cont h3{
+    color: orange;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  .page7cont p{
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+  .page7cont button{
+    padding: 15px;
+    border-radius: 40px;
+    background: gold;
+  }
+  .page7cont button:hover{
+    color: #fff;
+    background: olive;
+  }
+  /*                sign up start                  */
+   #login{
+
+    height: 100%;
+    width: 100%;
+    background-image: url(plane-flying-over-mountain-peaks-600nw-2436593833.webp);
+    background-position: center;
+    background-size: cover;
+   }
+   .login1{
+       position: relative;
+       top: 15%;
+       left: 37%;
+       border: 2px solid white;
+       height: 400px;
+       width: 330px;
+       text-align: center;
+       border-radius: 20px;
+   }
+   .login1 h1{
+    padding-top: 15px;
+    color: transparent;
+    background:linear-gradient(red, rgb(32, 31, 31));
+    -webkit-background-clip: text;
+    font-size: 3rem;
+   }
+   .login1 form{
+    padding-top: 10px;
+    margin-top: 10px;
+   }
+   form input{
+    padding: 8px;
+    /* background: transparent; */
+    color: aqua;
+    border-radius: 10px;
+     border: none;
+   }
+   form input:hover{
+    background: transparent;
+   }
+   form .btn {
+    padding: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    background: black;
+    border: none;
+    margin-bottom: 10px;
+   }
+   .btn button:hover{
+    background: transparent;
+   }
+   .login1 a{
+    text-decoration: none;
+    color: rgb(195, 207, 18);
+    
+   }
+   
+   
+   .btn5 button{
+    padding: 6px;
+    margin: 15px;
+    color: white;
+    background: black;
+    border-radius: 10px;
+   }
+   /* ////          ticket shoe ????????????????/////////// */
+   .ticket{
+    
+    
+    width: 100%;
+    height: 65%;
+    background: rgb(97, 97, 79);
+    
+    
+   }.ticket h1{
+    color: aqua;
+    position: relative;
+    left: 35vw;
+    top: 15px;
+   }
+   .ticket table{
+     position: relative;
+     left: 5vw;
+     width: 90vw;
+     height: 50vh;
+     margin-top: 30px;
+     border: #E18AFC;
+   }
+   
+   table tr{
+    background: #e09191;
+    color: rgb(31, 43, 3);
+    
+   }table td{
+    text-align: center;
+    background: #bebc13;
+    text-transform: uppercase;
+   }
+   
+   table th{
+    color: #C8E4E7;
+   }table td:hover{
+    background: transparent;
+    color: #fff;
+   }
+   #ticketnav{
+    background: rgb(66, 59, 59);
+    position: relative;
+    margin-top: -10px;
+    height: 12%;
+   }
+   #ticket-detail{
+    width: 100%;
+    height: 100vh;
+    background-image: url(plane-flying-over-mountain-peaks-600nw-2436593833.webp);
+    background-position: center;
+    background-size: cover;
+    
+   }#ticket-detail h1{
+    position: relative;
+    left: 35%;
+    border: 1px double springgreen;
+    width: 300px;
+    text-align: center;
+    background-color: aqua;
+   }
+   #ticket-detail .trip{
+    display: flex;
+    gap: 120px;
+    position: relative;
+    top: 5%;
+    left: 30%;
+    
+   }
+   .trip h2{
+    width: 170px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+   }.trip h2:hover{
+    color: white;
+    background-color: rgb(175, 228, 122);
+   }
+   #ticket-detail form{
+    position: relative;
+    
+    top: 10%;
+    left: 30%;
+    
+   }
+    .cate{
+      width: 450px;
+      height: 45px;
+      
+    
+      
+      border-radius: 10px;
+      text-align: center;
+      background-color: white;
+    }
+    .cate h5{
+      padding: 2px 0;
+    }
+    #catebook{
+      margin-left: 70px;
+    }
+   
+   #ticket-detail form input{
+    padding: 10px 140px;
+    
+   }
+#footer{
+  width: 100%;
+  height: 60vh;
+  background: #560319;
+  display: flex;
+  
+}
+#footer .footer1{
+  width: 33%;
+  
+  height: 400px;
+}
+.footer1 img{
+  position: relative;
+  left: 39%;
+  top: 30px;
+}
+.footer1 h5{
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  color: #fff;
+  font-weight: 400;
+}
+.footer1 input{
+  padding: 12px 20px;
+  margin-left: 95px;
+}
+.footer2{
+  display: flex;
+  gap: 50px;
+  margin-left: 60px;
+
+  
+}.footer2 h1{
+  color: #fff;
+  margin-top: 30px;
+}
+.footnav1 h4{
+  margin: 30px 0;
+  text-align: center;
+  color: #FF6347;
+}
+#uppdate{
+  width: 100%;
+  height:90%;
+  background-color: #b45e90;
+}
+#uppdate h1{
+  margin-left: 35%;
+  padding-top: 25px;
+  color: white;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  border: 1px solid red;
+  background-color: aqua;
+  border-radius: 20px;
+}
+#formd{
+  width: 100%;
+  height: 60%;
+  position: relative;
+  left: 35%;
+  top: 30px;
+  
+  
+
+}
+#formd input{
+  background-color: cadetblue;
+  margin: 20px 20px;
+  color: rgb(1, 22, 22);
+  text-transform: uppercase;
+  padding:6px 20px;
+}
+#nav .nav2 i{
+ font-size: 3rem;
+ position: relative;
+ 
+ display: none;
+}
+.fullnav{
+  display: none;
+}
+
+
+@media (max-width: 450px){
+  .fullnav{
+    width: 450px;
+    height: 80vh;
+    display: block;
+    background-color:#033E3E;
+    position: fixed;
+    z-index: 20;
+    border-radius: 40px;
+    top: -100%;
+    
+  }
+  .cut i{
+    
+    
+    text-align: center;
+    font-size: 1.7rem;
+    
+    position: absolute;
+    background: white;
+    top: 5%;
+    right: 20px;
+  }
+  .fullnav h4{
+    margin-top: 30px;
+    width: 100%;
+    
+  }
+  .fullnav h4 a{
+    text-decoration: none;
+    color: #fff;
+    
+    
+  
+    background-color: #E18AFC;
+    
+    position: relative;
+    left: 40%;
+    top: 40px;
+
+  }
+  #nav .nav1{
+    display: none;
+    top: 40px;
+  }
+  #nav .nav2 i{
+    display: block;
+    top: 0;
+    
+  }
+  #content{
+    top: 60px;
+  }
+  #content .content1 h1{
+     font-size: 1.5rem;
+     padding: 10px 0;
+  }
+  #content .content1 h2{
+    font-size: 1rem;
+  }
+  #content .content1 p{
+    width: 60%;
+  }
+  #content .content1 .btn2{
+    width: 140px;
+    font-size: 0.8rem;
+  }
+  #content .content2 h2{
+       font-size: 1.2rem;
+  }
+  .content2 input{
+    width: 140px;
+  }
+  .vdeo video{
+    width: 450px;
+  }
+  #page2{
+    position: relative;
+    height: 90px;
+  } 
+  .move h1{
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  .move #gola{
+    width: 40px;
+    height: 40px;
+    
+  }
+  #page3{
+    height: auto;
+    padding-bottom: 20px;
+  }
+  #page3{
+    flex-direction: column;
+  }
+   #page3 .cont1 .logoo img{
+    /* height: 50px;
+    width: 80px; */
+    position: relative;
+    left: 32vw;
+  }
+  .cont1 h1{
+    font-size: 2rem;
+    position: relative;
+    left: 26vw;
+    width: 250px;
+    height: 200px;
+
+    
+  } 
+  .cont1 .btn2{
+    position: relative;
+    left: 32vw;
+    width: 160px;
+  }
+  #page3 .cont2{
+    gap: 10px;
+  }
+  #page3 .cont2 .paris{
+    width: 300px;
+    height: 300px;
+  }
+  #page3 .cont2 .itlay{
+    width: 300px;
+    height: 300px;
+  }
+  .cont2 .dubai{
+    width: 350px;
+    height: 400px;
+    margin-top: 20px;
+  }
+  #fixid-image{
+    width: 200px;
+    height: 45vh;
+    
+  }
+  
+  #page5 .swiper{
+    height: 600px;
+    width: 100%;
+    
+  }#page6{
+    height: 970px;
+    
+  }
+  #page6 .p6cont1{
+    height: 220px;
+    width: 300px;
+    top: 110px;
+    text-align: center;
+  }
+  .p6cont1 h1{
+    font-size: 1.5rem;
+  }
+  .p6cont2{
+    flex-direction: column;
+  }
+  .p6cont2 .p6img {
+    width:350px;
+    height: 300px;
+  }
+  .p6cont3 .box1{
+    width: 350px;
+  }
+  .p6cont3 .box2{
+    width: 350px;
+  }
+  .p6cont3 .box3{
+    width: 350px;
+  }
+  #page7{
+    flex-direction: column;
+    height: 800px;
+  }
+  #page7 .page7img{
+    width: 350px;
+    height: 400px;
+    margin-left: 40px;
+  }
+  
+  
+   .page7cont h1{
+    font-size: 2.1rem;
+  }
+  #footer{
+    flex-direction: column;
+    height: 800px;
+    
+  }
+  
+  #footer .footer1 img{
+    margin-left: 100px;
+  }
+  .footer1 h5{
+    width: 350px;
+    height: 180px;
+  }
+  
+  .footer2 .footnav h1{
+   font-size: 1rem; 
+  }
+    
+
+}
+
+
+   
+
+
+
